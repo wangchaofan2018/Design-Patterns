@@ -1,9 +1,9 @@
-package Factory.SimpleFactory;
+package factory.SimpleFactory;
 
-import Factory.ConfigParser;
-import Factory.JsonConfigParser;
-import Factory.XmlConfigParser;
-import Factory.YamlConfigParser;
+import factory.ConfigParser;
+import factory.JsonConfigParser;
+import factory.XmlConfigParser;
+import factory.YamlConfigParser;
 
 /**
  * Created by wangchaofan on 2020/10/26.

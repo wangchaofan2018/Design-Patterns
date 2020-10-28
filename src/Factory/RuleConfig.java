@@ -1,4 +1,4 @@
-package Factory;
+package factory;
 
 /**
  * Created by wangchaofan on 2020/10/27.

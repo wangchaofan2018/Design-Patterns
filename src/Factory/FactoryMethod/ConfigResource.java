@@ -1,21 +1,31 @@
-package Factory.FactoryMethod;
+package factory.FactoryMethod;
 
-import Factory.ConfigParser;
-import Factory.RuleConfig;
+import factory.ConfigParser;
+import factory.RuleConfig;
 
 /**
  * Created by wangchaofan on 2020/10/27.
  */
 public class ConfigResource {
     public RuleConfig load(String path) {
-        ConfigParseFactory parseFactory = null;
-        String configStr = getFileExtension(path);
-        if ("json".equals(configStr)) {
-            parseFactory = new JsonConfigParseFactory();
-        } else if ("xml".equals(configStr)) {
-            parseFactory = new XmlConfigParseFactory();
-        }
-        ConfigParser parser = parseFactory.createParser();
+//        //第一种方式
+//        ConfigParseFactory parseFactory = null;
+//        String configStr = getFileExtension(path);
+//        if ("json".equals(configStr)) {
+//            parseFactory = new JsonConfigParseFactory();
+//        } else if ("xml".equals(configStr)) {
+//            parseFactory = new XmlConfigParseFactory();
+//        } else if ("yaml".equals(configStr)) {
+//            parseFactory = new YamlConfigParseFactory();
+//        }
+//        ConfigParser parser = parseFactory.createParser();
+//        return parser.parse("");
+
+        //第二种方式
+        ConfigParserFactory parserFactory = null;
+        String type = getFileExtension(path);
+        parserFactory = ConfigParserFactoryMap.getParserFactory(type);
+        ConfigParser parser = parserFactory.createParser();
         return parser.parse("");
     }
 

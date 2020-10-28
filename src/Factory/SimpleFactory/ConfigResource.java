@@ -1,9 +1,7 @@
-package Factory.SimpleFactory;
+package factory.SimpleFactory;
 
-import Factory.ConfigParser;
-import Factory.RuleConfig;
-
-import java.util.regex.Pattern;
+import factory.ConfigParser;
+import factory.RuleConfig;
 
 /**
  * Created by wangchaofan on 2020/10/27.
