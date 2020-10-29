@@ -11,12 +11,14 @@ public class IdGenerator1 {
     private static IdGenerator1 instance;
 
 //    //方法加锁 并发度低 不推荐
-//    public static synchronized IdGenerator getInstance() {
+//    public static synchronized IdGenerator1 getInstance() {
 //        if (instance == null) {
-//            instance = new IdGenerator();
+//            instance = new IdGenerator1();
 //        }
 //        return instance;
 //    }
+
+
     //使用双重检测或者静态内部类 下面是双重检测
     public static IdGenerator1 getInstance(){
         if (instance == null) {
