@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dba565f5-cf25-4867-9e41-21f17f838696" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/prototype/SearchWordBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/CacheService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +48,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1jh1rFNGPaAJDa3q1C2t4o1xGag" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="IntegerC&#9;PSI&#9;JAVA://java.lang.Integer.IntegerCache&#10;BufferInpu&#9;PSI&#9;JAVA://java.io.BufferedInputStream&#10;FilterInputS&#9;PSI&#9;JAVA://java.io.FilterInputStream&#10;InputStream&#9;PSI&#9;JAVA://java.io.InputStream" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automata-Machine-Work" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Automata-Machine-Work" />
-    <property name="SearchEverywhereHistoryKey" value="IntegerC&#9;PSI&#9;JAVA://java.lang.Integer.IntegerCache&#10;BufferInpu&#9;PSI&#9;JAVA://java.io.BufferedInputStream&#10;FilterInputS&#9;PSI&#9;JAVA://java.io.FilterInputStream&#10;InputStream&#9;PSI&#9;JAVA://java.io.InputStream" />
   </component>
   <component name="RunManager" selected="Application.Main (3)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -428,6 +431,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -440,8 +444,13 @@
       <updated>1603781456648</updated>
       <workItem from="1603781458664" duration="23652000" />
       <workItem from="1603874850762" duration="29216000" />
+      <workItem from="1604241708463" duration="12000" />
+      <workItem from="1604245054393" duration="813000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -453,6 +462,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -463,22 +473,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1604214087620">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1604221279894">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604214087620" />
-    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1604214087618">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604221279894" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1604221279892">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.center/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604214087618" />
-    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1604214087618">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604221279892" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1604221279891">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.left/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604214087618" />
-    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1604214087619">
+    <state width="1398" height="197" key="GridCell.Tab.0.left/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604221279891" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1604221279893">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.right/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604214087619" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/-507.-1417.2560.1417/0.23.1440.798@0.23.1440.798" timestamp="1604221279893" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

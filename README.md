@@ -49,8 +49,7 @@ public class demo {
 
 4.接口隔离原则
 
-Robert Martin 在 SOLID 原则中是这样定义它的：“Clients should not be forced to depend upon interfaces that they do not use。”直译成中文的话就是：客户端不应该被强迫依赖它不需要的接口。其中的“客户端”，可以理解为接口的调用者或者使用者。
-该原则还有另外一个定义：一个类对另一个类的依赖应该建立在最小的接口上（The dependency of one class to another one should depend on the smallest possible interface）
+定义：一个类对另一个类的依赖应该建立在最小的接口上（The dependency of one class to another one should depend on the smallest possible interface）
 
 5.依赖倒置原则
 依赖倒置原则的英文名是Dependence Inversion Principle，缩写为DIP。它的含义是程序要依赖于抽象接口，不要依赖于具体实现。 面向接口而非实现。
