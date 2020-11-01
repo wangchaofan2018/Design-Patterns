@@ -6,6 +6,6 @@ package decorator;
 public class Human implements Man {
     @Override
     public void sayHi(String s) {
-        System.out.println("你好");
+        System.out.println(s);
     }
 }

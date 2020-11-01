@@ -13,7 +13,7 @@
 里式替换原则的英文翻译是：Liskov Substitution Principle，缩写为 LSP。它的描述是 子类对象（object of subtype/derived class）能够替换程序（program）中父类对象（object of base/parent class）出现的任何地方，并且保证原来程序的逻辑行为（behavior）不变及正确性不被破坏。
 
 
-```
+```java
 public class A {
     public void fun(int a,int b){
         System.out.println(a+"+"+b+"="+(a+b));
@@ -41,7 +41,7 @@ public class demo {
         System.out.println("子类替代父类后的运行结果");
         A b=new B();
         b.fun(1,2);
-        C.calculate(a)
+        C.calculate(a);
     }
 }
 
@@ -50,20 +50,10 @@ public class demo {
 4.接口隔离原则
 
 Robert Martin 在 SOLID 原则中是这样定义它的：“Clients should not be forced to depend upon interfaces that they do not use。”直译成中文的话就是：客户端不应该被强迫依赖它不需要的接口。其中的“客户端”，可以理解为接口的调用者或者使用者。
-```
-public interface UserService {
-  boolean register(String cellphone, String password);
-  boolean login(String cellphone, String password);
-  UserInfo getUserInfoById(long id);
-  UserInfo getUserInfoByCellphone(String cellphone);
-}
+该原则还有另外一个定义：一个类对另一个类的依赖应该建立在最小的接口上（The dependency of one class to another one should depend on the smallest possible interface）
 
-public class UserServiceImpl implements UserService {
-  //...
-}
-```
 5.依赖倒置原则
-依赖倒置原则的英文名是Dependence Inversion Principle，缩写为DIP。它的含义是程序要依赖于抽象接口，不要依赖于具体实现。 
+依赖倒置原则的英文名是Dependence Inversion Principle，缩写为DIP。它的含义是程序要依赖于抽象接口，不要依赖于具体实现。 面向接口而非实现。
 
 --------
 
@@ -74,7 +64,7 @@ public class UserServiceImpl implements UserService {
 饿汉&懒汉
 
 例子：创建一个全局唯一的id生成器
-```
+```java
 public class IdGenerator {
   private AtomicLong id = new AtomicLong(0);
   private static final IdGenerator instance = new IdGenerator();
@@ -88,7 +78,7 @@ public class IdGenerator {
 }
 ```
 
-```
+```java
 public class IdGenerator { 
   private AtomicLong id = new AtomicLong(0);
   private static IdGenerator instance;
@@ -143,7 +133,7 @@ public class IdGenerator {
 
 例子：创建一个能解析不同配置文件的工具类
 常规做法
-```
+```java
 
 public class RuleConfigSource {
   public RuleConfig load(String ruleConfigFilePath) {
@@ -175,6 +165,7 @@ public class RuleConfigSource {
 #### 建造者模式
 主要作用于构造方法参数过多、需要对构造参数进行多重校验(类的属性之间有一定的约束关系)的情况、希望创建不可变对象
 建造者模式是用来创建一种类型的复杂对象，通过设置不同的可选参数，“定制化”地创建不同的对象.
+例子：创建一个连接池对象
 
 该模式的主要优点如下：
 1. 封装性好，构建和表示分离。
@@ -182,11 +173,12 @@ public class RuleConfigSource {
 3. 客户端不必知道产品内部组成的细节，建造者可以对创建过程逐步细化，而不对其它模块产生任何影响，便于控制细节风险。
 
 其缺点如下：
-1. 产品的组成部分必须相同，这限制了其使用范围。
-2. 如果产品的内部变化复杂，如果产品内部发生变化，则建造者也要同步修改，后期维护成本较大。
+1. 如果产品的内部变化复杂，如果产品内部发生变化，则建造者也要同步修改，后期维护成本较大。
 
 #### 原型模式
 如果对象的创建成本比较大，而同一个类的不同对象之间差别不大（大部分字段都相同），在这种情况下，我们可以利用对已有对象（原型）进行复制（或者叫拷贝）的方式，来创建新对象，以达到节省创建时间的目的。这种基于原型来创建对象的方式就叫作原型设计模式，简称原型模式。
+例子：创建一个搜索词缓存，必要时进行刷新拿到最新搜索次数 数据
+
 原型模式的优点：
 1. Java 自带的原型模式基于内存二进制流的复制，在性能上比直接 new 一个对象更加优良。
 2. 可以使用深克隆方式保存对象的状态，使用原型模式将对象复制一份，并将其状态保存起来，简化了创建对象的过程，以便在需要的时候使用（例如恢复到历史某一状态），可辅助实现撤销操作。
@@ -260,6 +252,7 @@ public class RuleConfigSource {
 2. 增加新的子系统可能需要修改外观类或客户端的源代码，违背了“开闭原则”。
 
 
+
 #### 组合模式
 
 组合（Composite）模式的定义：有时又叫作部分-整体模式，它是一种将对象组合成树状的层次结构的模式，用来表示“部分-整体”的关系，使用户对单个对象和组合对象具有一致的访问性。
@@ -281,3 +274,13 @@ public class RuleConfigSource {
 其主要缺点是：
 1. 为了使对象可以共享，需要将一些不能共享的状态外部化，这将增加程序的复杂性。
 2. 读取享元模式的外部状态会使得运行时间稍微变长。
+
+```
+
+Integer i1 = 56;
+Integer i2 = 56;
+Integer i3 = 129;
+Integer i4 = 129;
+System.out.println(i1 == i2);
+System.out.println(i3 == i4);
+```
