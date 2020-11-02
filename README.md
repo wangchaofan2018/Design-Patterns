@@ -54,7 +54,7 @@ public class demo {
 5.依赖倒置原则
 依赖倒置原则的英文名是Dependence Inversion Principle，缩写为DIP。它的含义是程序要依赖于抽象接口，不要依赖于具体实现。 面向接口而非实现。
 
---------
+*******
 
 ### 单例模式
 
