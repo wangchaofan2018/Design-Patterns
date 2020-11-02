@@ -100,6 +100,8 @@ public class IdGenerator {
 ##### 简单工厂
 简单工厂模式(Simple Factory Pattern)：专门定义一个类（工厂类）来负责创建其他类的实例。可以根据创建方法的参数来返回不同类的实例，被创建的实例通常都具有共同的父类。
 
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82.png)
+
 优点：
 1. 工厂类包含必要的逻辑判断，可以决定在什么时候创建哪一个产品的实例。客户端可以免除直接创建产品对象的职责，很方便的创建出相应的产品。工厂和产品的职责区分明确。
 2. 客户端无需知道所创建具体产品的类名，只需知道参数即可。
@@ -113,6 +115,8 @@ public class IdGenerator {
 
 ##### 工厂方法
 工厂方法模式(Factory Method Pattern)又称为工厂模式，工厂父类负责定义创建产品对象的公共接口，而工厂子类则负责生成具体的产品对象，即通过不同的工厂子类来创建不同的产品对象。
+
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95.png)
 
 优点：
 1. 用户只需要知道具体工厂的名称就可得到所要的产品，无须知道产品的具体创建过程。
@@ -197,6 +201,8 @@ public class RuleConfigSource {
 
 代理模式的定义：由于某些原因需要给某对象提供一个代理以控制对该对象的访问。这时，访问对象不适合或者不能直接引用目标对象，代理对象作为访问对象和目标对象之间的中介。
 
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.png)
+
 代理模式的主要优点有：
 1. 代理模式在客户端与目标对象之间起到一个中介作用和保护目标对象的作用；
 2. 代理对象可以扩展目标对象的功能；
@@ -211,6 +217,8 @@ public class RuleConfigSource {
 #### 桥接模式
 桥接（Bridge）模式的定义如下：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现，从而降低了抽象和实现这两个可变维度的耦合度。
 
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.png)
+
 桥接（Bridge）模式的优点是：
 1. 抽象与实现分离，扩展能力强
 2. 符合开闭原则
@@ -219,6 +227,8 @@ public class RuleConfigSource {
 缺点是：由于聚合关系建立在抽象层，要求开发者针对抽象化进行设计与编程，能正确地识别出系统中两个独立变化的维度，这增加了系统的理解与设计难度。
 #### 适配器模式
 适配器模式（Adapter）的定义如下：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。
+
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png)
 
 该模式的主要优点如下。
 1. 客户端通过适配器可以透明地调用目标接口。
@@ -234,6 +244,8 @@ public class RuleConfigSource {
 #### 装饰模式
 装饰（Decorator）模式的定义：指在不改变现有对象结构的情况下，动态地给该对象增加一些职责（即增加其额外功能）的模式，它属于对象结构型模式。
 
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F.png)
+
 装饰（Decorator）模式的主要优点有：
 装饰器是继承的有力补充，比继承灵活，在不改变原有对象的情况下，动态的给一个对象扩展功能，即插即用
 通过使用不用装饰类及这些装饰类的排列组合，可以实现不同效果
@@ -246,6 +258,8 @@ public class RuleConfigSource {
 #### 门面模式
 
 门面（Facade）模式又叫作外观模式，是一种通过为多个复杂的子系统提供一个一致的接口，而使这些子系统更加容易被访问的模式。该模式对外有一个统一接口，外部应用程序不用关心内部子系统的具体细节，这样会大大降低应用程序的复杂度，提高了程序的可维护性。
+
+![avatar](https://github.com/wangchaofan2018/Design-Patterns/blob/master/image/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F.png)
 
 外观模式提供了简单明确的接口，但是在内部众多子系统功能进行整合。就像图片缓存，内部包含了涉及到其他子系统的如缓存、下载等处理，外观模式将这些复杂的逻辑都隐藏了。在下载一个图片的时候，你只需要调一个getImageWithUrl:url接口就可以了，达到解耦合的目的。
 
