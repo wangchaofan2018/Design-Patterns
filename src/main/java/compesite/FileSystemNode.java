@@ -15,11 +15,11 @@ public abstract class FileSystemNode {
 
     public void setDirFlag(boolean dirFlag){
         this.dirFlag = dirFlag;
-    };
+    }
 
     public boolean getDirFlag(){
         return dirFlag;
-    };
+    }
 
     public void print() {
         System.out.println(path);

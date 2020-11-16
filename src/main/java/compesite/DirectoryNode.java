@@ -23,6 +23,11 @@ public class DirectoryNode extends FileSystemNode {
         return size;
     }
 
+    @Override
+    public boolean getDirFlag() {
+        return super.getDirFlag();
+    }
+
     public void add(File file) {
         List<FileSystemNode> list = new LinkedList<>();
         if (file.isFile()) {

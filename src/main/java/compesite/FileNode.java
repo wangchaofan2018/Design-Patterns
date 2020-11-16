@@ -11,7 +11,7 @@ public class FileNode extends FileSystemNode{
 
     @Override
     public boolean getDirFlag() {
-        return false;
+        return super.getDirFlag();
     }
 
     public FileNode(String path) {
