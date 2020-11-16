@@ -23,17 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dba565f5-cf25-4867-9e41-21f17f838696" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/门面模式 (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/facede/Facade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/facede/HomeKit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/facede/Light.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/facede/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/facede/TV.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/facede/Washer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/responsiblity_chain/am.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/responsiblity_chain/linkednode/HandlerA.class" afterPath="$PROJECT_DIR$/target/classes/responsiblity_chain/linkednode/HandlerA.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/门面模式 (1).png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Design-Patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="274" column="120" selection-start-line="274" selection-start-column="120" selection-end-line="274" selection-end-column="120" />
+            <state relative-caret-position="170">
+              <caret line="274" column="125" selection-start-line="274" selection-start-column="125" selection-end-line="274" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -153,7 +144,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/facede/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -238,13 +229,13 @@
         <option value="$PROJECT_DIR$/src/main/java/responsiblity_chain/linkednode/HandlerB.java" />
         <option value="$PROJECT_DIR$/src/main/java/responsiblity_chain/linkednode/HandlerChain.java" />
         <option value="$PROJECT_DIR$/src/main/java/responsiblity_chain/linkednode/HandlerA.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/facede/HomeKit.java" />
         <option value="$PROJECT_DIR$/src/main/java/facede/Light.java" />
         <option value="$PROJECT_DIR$/src/main/java/facede/TV.java" />
         <option value="$PROJECT_DIR$/src/main/java/facede/Washer.java" />
         <option value="$PROJECT_DIR$/src/main/java/facede/Facede.java" />
         <option value="$PROJECT_DIR$/src/main/java/facede/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -960,12 +951,12 @@
       <workItem from="1603781458664" duration="23652000" />
       <workItem from="1603874850762" duration="30085000" />
       <workItem from="1604280941876" duration="40220000" />
-      <workItem from="1604907756860" duration="39681000" />
+      <workItem from="1604907756860" duration="40043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133638000" />
+    <option name="totallyTimeSpent" value="134000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-603" y="-1417" width="2560" height="1417" extended-state="6" />
@@ -980,10 +971,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13933796" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868853" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3587375" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3587375" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09332804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09332804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08852459" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1453,14 +1444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="274" column="120" selection-start-line="274" selection-start-column="120" selection-end-line="274" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/facede/HomeKit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1516,6 +1499,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="274" column="125" selection-start-line="274" selection-start-column="125" selection-end-line="274" selection-end-column="125" />
           <folding />
         </state>
       </provider>
