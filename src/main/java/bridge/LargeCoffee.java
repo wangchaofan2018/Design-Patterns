@@ -4,6 +4,7 @@ package bridge;
  * Created by wangchaofan on 2020/10/29.
  */
 public class LargeCoffee extends Coffee {
+
     public LargeCoffee(ICoffeeAdditives additives) {
         super(additives);
     }
