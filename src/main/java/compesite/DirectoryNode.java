@@ -29,10 +29,8 @@ public class DirectoryNode extends FileSystemNode {
     }
 
     public void add(File file) {
-        List<FileSystemNode> list = new LinkedList<>();
         if (file.isFile()) {
             FileNode node = new FileNode(file.getPath());
-            list.add(node);
             nodes.add(node);
         } else {
             DirectoryNode directoryNode = new DirectoryNode(file.getPath());
