@@ -5,7 +5,7 @@ package responsiblity_chain.arraylist;
  */
 public class HandlerA implements Handler {
     @Override
-    public boolean handle() {
+    public boolean handle(Object something) {
         boolean handled = false;
         System.out.println("A do something");
         //若能处理 使handled置为true

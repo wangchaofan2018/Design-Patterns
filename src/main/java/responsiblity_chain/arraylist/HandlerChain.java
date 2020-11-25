@@ -13,9 +13,9 @@ public class HandlerChain {
         handlers.add(handler);
     }
 
-    public void handle() {
+    public void handle(Object o) {
         for (Handler handler : handlers) {
-            boolean handled = handler.handle();
+            boolean handled = handler.handle(o);
             if (handled) {
                 break;
             }
@@ -24,8 +24,9 @@ public class HandlerChain {
 
     public static void main(String[] args) {
         HandlerChain chain = new HandlerChain();
+        Object o = new Object();
         chain.addHandler(new HandlerA());
         chain.addHandler(new HandlerB());
-        chain.handle();
+        chain.handle(o);
     }
 }
